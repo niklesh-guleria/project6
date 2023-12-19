@@ -1,0 +1,89 @@
+
+        *{
+    box-sizing: border-box;
+    margin: 0;
+}
+.container{
+    height: 650px;
+    width: 1200px;
+    margin: auto;
+    padding: 10px;
+    margin-top: 40px;
+    border: 1px solid black;
+    border-radius: 10px;
+   
+}
+.container p{
+    font-size: 26px;
+    font-weight: 600;
+}
+.inner-container{
+    margin: auto;
+    width: 1180px;
+    height: 600px;
+    /* background-color: rgb(105, 97, 97); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.first-box{
+    height: 100%;
+    width: 50%;
+    border-radius: 10px;
+    /* background-color: blueviolet; */
+    
+}
+form{
+    border-radius: 10px;
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+.form-label{
+    font-size: 22px;
+    
+}
+.item-name{
+    margin-top: 20px;
+    height:30px;
+    width: 250px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.item-1{
+    
+    padding: 20px 0px;
+}
+button{
+    height: 50px;
+    width: 150px;
+    background-color: goldenrod;
+    border: none    ;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: rgb(223, 179, 121);
+}
+
+.second-box{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    /* background-color: rgb(107, 226, 43); */
+    
+}
+table{
+    border: 1px solid black;
+    width: 100%;
+}
+ td{
+    border: 1px solid black;
+ }
+ th{
+    border: 1px solid black;
+ }
+    

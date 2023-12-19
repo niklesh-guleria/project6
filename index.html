@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+      <p>Create bill</p>
+        <div class="inner-container">
+            <div class="first-box">
+                <form action="" class="form">
+                    <div class="item-1">
+                        <label class="form-label">Item name</label>
+                        <br>
+                        <input type="text" id="item-name" class="item-name" placeholder="eg. sugar">
+                    </div>
+                    <div class="item-1">
+                        <label class="form-label">Item base prize</label>
+                        <br>
+                        <input type="number" id="item-price" class="item-name" placeholder="eg. rs 20,000" onkeyup="puttotal()">
+                    </div>
+                    <div class="item-1">
+                        <label class="form-label">Qty</label>
+                        <br>
+                        <input type="number" id="item-qty" class="item-name" placeholder="eg. 5" onkeyup="puttotal()">
+                    </div>
+                    <div class="item-1">
+                        <label class="form-label">Total</label>
+                        <br>
+                        <input type="number" id="item-total" class="item-name" value="" readonly >
+                    </div>
+                    <button id="additem" type="button" onclick="additems()" >Add item to bill</button>
+                </form>
+            </div>
+            <div class="second-box">
+                <table class="table">
+                    
+                    <thead>
+                        <tr>
+                            <td colspan="5">
+                                <strong>
+                                    To<br>
+                                </strong>
+                                <span>Rohit kumar</span><br>
+                                <span>78/24, South Exntension, South delhi - 110032</span>
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="5">
+                                <strong>From<br></strong>
+                                <span>Niklesh guleria</span><br>
+                                <span>78/24, malviya nagar, South delhi - 110030</span>
+                                
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>S.No</th>
+                            <th>Item</th>
+                            <th>Price</th>
+                            <th>Qty</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody">
+
+                    </tbody>
+                    
+                </table>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+<script src="script.js"></script>
+
+
+
+</html>
